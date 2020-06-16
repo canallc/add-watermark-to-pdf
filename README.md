@@ -7,7 +7,7 @@ There are five files including this readme:
 4. Right Clicking on PDF to embed watermark.png
 5. README.md
 
-The "Add Watermark...workflow" is the Automator file. Double clicking it should open this file in the Automator app.
+The "Add Watermark...workflow" is the Automator file. Right-click on it and choose "Open with Automator". Refer to the "Screenshot.png" for which options to edit. After editing it, double-click the file to install it.
 
 The DRAFT.png is the watermark that will be added to each PDF page. 
 
