@@ -1,17 +1,16 @@
-Add Watermark to PDF.workflow instructions
+# Add Watermark to PDF
 
-There are five files including this readme:
-1. Add Watermark to PDF.workflow
-2. DRAFT.png
-3. Screen shot.png
-4. Right Clicking on PDF to embed watermark.png
-5. README.md
+## Instructions
+1. `Add Watermark to PDF.workflow` is the Automator file. Right-click on it and choose "Open with Automator".
 
-The "Add Watermark...workflow" is the Automator file. Right-click on it and choose "Open with Automator". Refer to the "Screenshot.png" for which options to edit. After editing it, double-click the file to install it.
+2. Set the file location of the watermark image and the target folder to save the file into.
 
-The DRAFT.png is the watermark that will be added to each PDF page. 
+<img src="./Screen%20shot.png" style="display: block; width: 700px; margin: 0 auto; margin-bottom: 14px;">
 
-The "Screen shot.png" files show the two places where you'll need to make updates to the Automator file so it can find where the DRAFT.png watermark is on your filesystem and where you want the new, watermarked files to be saved.
+`DRAFT.png` is the watermark that will be added to each PDF page. 
 
-The "Right Clicking...png" file shows how to invoke the Quick Action. The PDF you right-click on will be watermarked and saved in location you specify in #2 of the "Screen shot.png" file.
+3. Double-click `Add Watermark to PDF.workflow` to install the workflow.
 
+4. To use, simply right-click any PDF, and choose "Add Watermark to PDF"
+
+<img src="./Right%20Clicking%20on%20PDF%20to%20embed%20watermark.png" style="display: block; width: 700px; margin: 0 auto; margin-bottom: 14px;">
